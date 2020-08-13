@@ -1,0 +1,132 @@
+.App {
+    text-align: center;
+    background-color: #144c73;
+    height: 100vh;
+}
+
+.App-logo {
+    margin-top: 7%;
+}
+
+.App-header {
+    /* color: #f9f7f7; */
+    color: #f9f7f7e0;
+    letter-spacing: 1px;
+    font-size: 25px;
+    margin-top: 90px;
+}
+
+.App-link {
+    color: #f9f7f7;
+}
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.App-userName {
+    margin-top: -25px;
+    margin-bottom: 10px;
+    margin-left: -10px;    
+}
+
+.userIcon {
+    margin-left: -7px;
+}
+
+.userText {
+    padding-left: 10px;
+}
+
+.App-password {
+    margin-top: -40px;
+}
+
+/* .MuiInput-underline-27:before {
+  content: none !important;
+} */
+
+.App-userName .MuiFormControl-fullWidth-4 {
+    width: 17%;
+}
+
+/* #0374ad */
+
+.loginBtnDiv {
+    margin-left: 20%;
+    margin-top: -20px;
+}
+
+.loginBtnDiv .MuiButton-containedPrimary-88 {
+    background-color: #0374ad !important;
+}
+
+.App-footer {
+    margin-top: 7%;
+    color: #dde2e3;
+}
+
+.ftrSpn2 {
+    color: #dde2e3;
+}
+.ftrSpn3 {
+    color: #0374ad;
+}
+
+.imgBgDesign {
+    -webkit-filter: drop-shadow(0.3pt 0em 0px white) drop-shadow(1.2px -1px 0px white);
+    
+    z-index: 0;
+    opacity: 10;
+  
+}
+
+.MuiFormLabel-root-16 .MuiFormLabel-focused-17{
+    color: #fff !important;
+}
+.MuiInputBase-root-46{
+    color: #fff !important;
+}
+.MuiFormLabel-root-26 {
+    color: #fff !important;
+}
+.MuiInput-underline-37:before{
+    color: #fff !important;
+}
+/* .MuiInput-underline-37:before {
+    border-bottom: #fff !important;
+} */
+
+/*Login Button */
+.MuiButton-containedPrimary-75 {
+    color: #fff;
+    background-color: #15a06d !important;
+}
+.MuiButton-containedPrimary-75:hover {
+    background-color: #144c73 !important;
+}
+
+.MuiButton-containedPrimary-147 {
+    color: #fff;
+    background-color:  #15a06d !important;
+}
+.MuiButton-containedPrimary-147:hover {
+    background-color: #144c73 !important;
+}
+/*Login Button Ends*/
+
+/* Checkbox starts*/
+.MuiCheckbox-colorSecondary-76.MuiCheckbox-checked-72 {
+    color: #15a06d !important;
+}
+/* Checkbox ends */
+
+.userField{    
+    margin-left: 41%;
+    width: 20%;
+}
