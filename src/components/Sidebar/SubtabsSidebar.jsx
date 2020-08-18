@@ -283,10 +283,13 @@ import sidebarStyle from "assets/jss/material-dashboard-react/components/sidebar
       const { classes, color, image, logo,  routes } = this.props;
   
       // const { classes, ...rest } = this.props;
+      // eslint-disable-next-line to the line before.
      const links = (
       <List className={classes.list}>
+         {/* eslint-disable-next-line to the line before. */}
         {routes.map((prop, key) => {
           if(prop.layout !== '/subtabs'){
+            // eslint-disable-next-line
           var activePro = " ";
           var listItemClasses;
   
