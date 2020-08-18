@@ -208,7 +208,7 @@ const whiteCardHeader = {
 };
 const yellowCardHeader = {
   background:
- // eslint-disable-next-line to the line before.
+ // eslint-disable-next-line
     "linear-gradient(60deg, " + yellowColor + ", " + '#ffec00' + ")",
   ...yellowBoxShadow
 };
