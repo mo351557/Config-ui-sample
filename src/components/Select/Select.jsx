@@ -59,6 +59,7 @@ class Dropdown extends React.Component {
                     <Select
                         value={this.state.value}
                         onChange={handleChange}
+                        // eslint-disable-next-line
                         onChange={handle}
                         name={this.state.name}
                         className={classes.selectEmpty}
